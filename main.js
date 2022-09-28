@@ -5,7 +5,7 @@ const Form = FormApp.openById('YOUR_FORM_ID')
 let messageTemplate = {
 	"content": null,
 	"embeds": [{
-    "title": Form.getTitle(),
+    		"title": Form.getTitle(),
 		"color": 4775241,
 		"fields": [],
 	}]
